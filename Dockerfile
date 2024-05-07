@@ -20,4 +20,3 @@ COPY --from=builder /app/openserp /usr/local/bin/openserp
 ADD config.yaml /usr/src/app
 
 ENTRYPOINT ["openserp"]
-
